@@ -9,11 +9,10 @@ spring:
             client-id: ${GOOGLE_CLIENT_ID}
             client-secret: ${GOOGLE_CLIENT_SECRET}
             scope: email, profile
-#          github:
-#            client-id: YOUR_GITHUB_CLIENT_ID
-#            client-secret: YOUR_GITHUB_CLIENT_SECRET
-#            client-secret: YOUR_GITHUB_CLIENT_SECRET
-#            scope: user:email
+          github:
+            client-id: ${GITHUB_CLIENT_ID}
+            client-secret: ${GITHUB_CLIENT_SECRET}
+            scope: user:email
 
 
 logging:
